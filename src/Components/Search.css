@@ -1,0 +1,16 @@
+.search-input{
+    border: 5px black;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px; 
+    
+}
+.srch-btn{
+    padding: 10px;
+    color: aliceblue;
+    background-color: black;
+    border-radius:5px;  
+}
+.srch{
+    display: flex;  
+}
