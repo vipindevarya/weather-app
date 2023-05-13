@@ -32,11 +32,13 @@ function App() {
 }
 
   return (
+    <div className='main'>
     <div className="App">
        <h2>Weather</h2>
       <Search searchData={search} eventHandler={searchHandler} searchWeather={searchWeatherHandler }></Search> 
       <Result weatherData={weather}></Result>
     </div>
+   <div/>
   );
 }
 
